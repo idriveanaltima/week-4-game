@@ -17,8 +17,8 @@
 
 <body>
   <div class="container wrap">
-    <div class="row justify-content-md-center">
-      <div class="col-md-6">
+    <div id="crystalHeader" class="row justify-content-md-center">
+      <div class="col-md-4">
         <h1>Crystals collector</h1>
       </div>
     </div>
@@ -46,26 +46,31 @@
     </div>
 
     <div class="row">
-      <div class="col-md-4">
-        <p> Wins</p>
-        <span id="wins">0</span>
-        <p> Losses</p>
-        <span id="losses">0</span>
-      </div>
-    </div>
-    <div class="row row5">
-      <div class="col-md-4 float-md-left">
-        <p> Random Number</p>
-        <span id="randomNumber"></span>
-        <p>Total Score
-          <span id="crystalTotal"></span>
-        </p>
+      <div class="col-md-12">
+        <div class="row justify-content-md-center">
+          <div class="col-md-2">
+            <p> Random Number </p>
+            <span id="randomNumber"></span>
+
+            <p>Wins:
+              <span id="wins">0</span>
+            </p>
+          </div>
+          <div class="col-md-2">
+            <p>Total Score</p>
+            <span id="crystalTotal">0</span>
+            <p> Losses:
+              <span id="losses">0</span>
+            </p>
+
+          </div>
+        </div>
       </div>
     </div>
 
-    <div class="row justify-content-md-center row4">
+    <div id="crystalButtonRow" class="row justify-content-md-center row4">
       <div class="col-md-8">
-        <button class="crystal" id="crystal1" value=0></button>
+        <button class="crystal" id="crystal1" value="1"></button>
         <button class="crystal" id="crystal2" value="15"></button>
         <button class="crystal" id="crystal3" value="-7"></button>
         <button class="crystal" id="crystal4" value="2"></button>
