@@ -13,14 +13,15 @@ button {
   background: linear-gradient(rgba(18, 94, 124, 0.658), lightgray, rgba(18, 94, 124, 0.658))
 }
 
-
-#crystalButtonRow, #crystalHeader {
+#crystalButtonRow,
+#crystalHeader {
   margin-right: 2%;
   margin-left: 2%;
   padding: 2%;
 }
 
-#randomNumber, #crystalTotal {
+#randomNumber,
+#crystalTotal {
   height: 75px;
   width: 75px;
   font-size: 75px;
